@@ -202,6 +202,34 @@ function App() {
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+
+        <s.SpacerSmall />
+        <s.SpacerSmall />
+
+        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold.
+            Every NFT will reward randomly until there is one left. Last NFT sold will earn a total of 10% of all the NFTS sold.
+            pricing currently at base cost of 0.21BNB (Beans). this price will increase on every 10 NFTs sold.
+            Get in early to have more chances to be rewarded and remember! You can always have more than one.
+            more chances for rewards. up to 10 can be purchased per transaction.
+          </s.TextDescription>
+          <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            Sooooooooooo
+          </s.TextDescription>
+        </s.Container>
+
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -385,7 +413,7 @@ function App() {
             }}
           >
             Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+            {CONFIG.NETWORK.NAME} Network) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
