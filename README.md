@@ -2,11 +2,17 @@
 
 ![](https://github.com/degenhausbackup/Lastman_nft_minting_dapp/blob/main/public/logo192.png)
 
-## Contract and dapp on testnet
+LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold.
+Every NFT will reward randomly until there is one left. Last NFT sold will earn a total of 10% of all the NFTS sold.
+pricing currently at base cost of 0.21BNB (Beans). this price will increase on every 10 NFTs sold.
+Get in early to have more chances to be rewarded and remember! You can always have more than one.
+more chances for rewards. up to 10 can be purchased per transaction.
+
+## Contract and dapp on BSC Testnet
 
 Running on BSC Testnet: https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code
 
-DAPP  test alpha (Netlify) here: https://app.netlify.com/sites/fanciful-otter-5cc3f3/overview
+DAPP  test alpha (Netlify) here: https://fanciful-otter-5cc3f3.netlify.app/
 
 # LastManHolding NFT minting dapp 🔥
 
