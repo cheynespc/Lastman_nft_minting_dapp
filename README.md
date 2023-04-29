@@ -2,10 +2,11 @@
 
 ![](https://github.com/degenhausbackup/Lastman_nft_minting_dapp/blob/main/public/logo192.png)
 
-## Contract and dapp on testnet 🛠️
+## Contract and dapp on testnet
+
 Running on BSC Testnet: https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code
 
-Running test dapp alpha (Netlify) here: https://app.netlify.com/sites/fanciful-otter-5cc3f3/overview
+DAPP  test alpha (Netlify) here: https://app.netlify.com/sites/fanciful-otter-5cc3f3/overview
 
 # LastManHolding NFT minting dapp 🔥
 
