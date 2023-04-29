@@ -22,8 +22,16 @@ DAPP  test alpha (Netlify) here: https://fanciful-otter-5cc3f3.netlify.app/
 ![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/banner.png)
 
 
+## Contracts Write Features
 
 ![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/public/Contractwritefeatures.png)
+
+## Test Results of bonus Last NFT sold Remix EVM
+
+![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/public/RemixLogtestFinalsale.png)
+
+
+
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
 
 The simple route is so simple, all you need to do is download the build folder on the release page and change the configuration to fit your needs. (Follow the video for a walk through).
