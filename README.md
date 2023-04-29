@@ -8,6 +8,9 @@ pricing currently at base cost of 0.21BNB (Beans). this price will increase on e
 Get in early to have more chances to be rewarded and remember! You can always have more than one.
 more chances for rewards. up to 10 can be purchased per transaction.
 
+
+![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/public/dappscreenshot.png)
+
 ## Contract and dapp on BSC Testnet
 
 Running on BSC Testnet: https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code
