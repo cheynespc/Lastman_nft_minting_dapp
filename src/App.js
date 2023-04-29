@@ -210,6 +210,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
+              fontSize: 30,
               color: "var(--primary-text)",
             }}
           >
@@ -223,10 +224,11 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
+              fontSize: 20,
               color: "var(--primary-text)",
             }}
           >
-            Sooooooooooo
+            Last Man Holding NFT will be available to buy sell auction and swap at ToFuNFT.com
           </s.TextDescription>
         </s.Container>
 
