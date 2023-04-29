@@ -2,7 +2,10 @@
 
 ![](https://github.com/degenhausbackup/Lastman_nft_minting_dapp/blob/main/public/logo192.png)
 
+## Contract and dapp on testnet 🛠️
+Running on BSC Testnet: https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code
 
+Running test dapp alpha (Netlify) here: https://app.netlify.com/sites/fanciful-otter-5cc3f3/overview
 
 # LastManHolding NFT minting dapp 🔥
 
@@ -15,6 +18,7 @@ The simple route is so simple, all you need to do is download the build folder o
 The more complex route allows you to add additional functionality if you are comfortable with coding in react.js. (Follow the below instructions for a walk through).
 
 ## Installation 🛠️
+
 
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
