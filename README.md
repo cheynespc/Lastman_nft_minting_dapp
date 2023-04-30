@@ -18,6 +18,20 @@ Running on BSC Testnet: https://testnet.bscscan.com/address/0xa4f64d98ad39a25975
 DAPP  test alpha (Netlify) here: https://fanciful-otter-5cc3f3.netlify.app/
 
 ## Tokenomics
+
+100% of NFT sales broken down
+
+10% goes to rewarding Holders
+10% goes to The Last Man NFT Sold
+30% Marketing Wallet
+10% Developers Fees
+10% Advertisings Costs
+30% to Buy back Lastman Standing and Lastman Giving increasing the chart
+
+
+Funds held until last NFT Sold
+90% Funds held in contract with 10% rewarding a random existing holder per mint
+
 ![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/public/Tokenomics.png)
 
 # LastManHolding NFT minting dapp 🔥
