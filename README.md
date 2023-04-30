@@ -22,10 +22,15 @@ DAPP  test alpha (Netlify) here: https://fanciful-otter-5cc3f3.netlify.app/
 100% of NFT sales broken down
 
 10% goes to rewarding Holders
+
 10% goes to The Last Man NFT Sold
+
 30% Marketing Wallet
+
 10% Developers Fees
+
 10% Advertisings Costs
+
 30% to Buy back Lastman Standing and Lastman Giving increasing the chart
 
 
