@@ -13,9 +13,11 @@ more chances for rewards. up to 10 can be purchased per transaction.
 
 ## Contract and dapp on BSC Testnet
 
-Running on BSC Testnet: https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code
+[Solidity File Here](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/LastManHoldingNFT.sol)
 
-DAPP  test alpha (Netlify) here: https://fanciful-otter-5cc3f3.netlify.app/
+[BSC Testnet](https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code)
+
+[DAPP  test alpha (Netlify) here](https://fanciful-otter-5cc3f3.netlify.app/)
 
 ## Tokenomics
 
