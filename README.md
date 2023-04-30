@@ -17,6 +17,9 @@ Running on BSC Testnet: https://testnet.bscscan.com/address/0xa4f64d98ad39a25975
 
 DAPP  test alpha (Netlify) here: https://fanciful-otter-5cc3f3.netlify.app/
 
+## Tokenomics
+![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/public/Tokenomics.png)
+
 # LastManHolding NFT minting dapp 🔥
 
 ![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/banner.png)
