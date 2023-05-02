@@ -104,6 +104,11 @@ export const StyledLink = styled.a`
   color: white;
   text-decoration: none;
 `;
+export const StyledLink1 = styled.a`
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+`;
 
 function App() {
   const dispatch = useDispatch();
@@ -241,18 +246,12 @@ function App() {
             of 10% of the entire treasury, total value of all the NFTS sold.
             Pricing is currently at base cost of 0.21BNB (Beans). this price will increase on every 10 NFTs sold.
             Get in early to have more chances to be rewarded and remember! You can always have more than one, which means
-            more chances for rewards. Up to 10 Lastman NFT's can be purchased per transaction. Enjoy the Ride!!
+            more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!
           </s.TextDescription>
-          <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              fontSize: 20,
-              color: "var(--primary-text)",
-            }}
-          >
-            Last Man Holding NFT will be available to buy sell auction and swap at ToFuNFT.com
-          </s.TextDescription>
+          <s.SpacerMedium />
+          <StyledLink1 href={CONFIG.MARKETPLACE_LINK} color='#fff' target="_blank" rel="noopener noreferrer">Last Man Holding NFT will be available to buy sell auction and swap at ToFuNFT.com            </StyledLink1>
+
+
         </s.Container>
 
         <s.SpacerSmall />
@@ -398,7 +397,7 @@ function App() {
             <s.TextTitle
               style={{ textAlign: "center", color: "var(--accent-text)" }}
             >
-              You can also find {CONFIG.NFT_NAME} at
+              Trade {CONFIG.NFT_NAME} at
             </s.TextTitle>
             <s.SpacerSmall />
             <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
@@ -406,11 +405,7 @@ function App() {
 
                 <StyledImg2 alt={"example"} src={"/config/images/tofunft.png"} />
             </StyledLink>
-            <s.TextTitle
-              style={{ textAlign: "center", color: "var(--accent-text)" }}
-            >
-              ToFuNFT
-            </s.TextTitle>
+
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -430,9 +425,8 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            Gas set to {CONFIG.GAS_LIMIT} for the contract to
+            successfully mint your NFT.
           </s.TextDescription>
         </s.Container>
       </s.Container>
