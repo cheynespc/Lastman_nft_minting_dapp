@@ -74,7 +74,17 @@ export const StyledLogo = styled.img`
   transition: width 0.5s;
   transition: height 0.5s;
 `;
+export const StyledImg2 = styled.img`
 
+  width: 50px;
+  @media (min-width: 50px) {
+    width: 50px;
+  }
+  @media (min-width: 50px) {
+    width: 50px;
+  }
+  transition: width 0.5s;
+`;
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
   border: 4px dashed var(--secondary);
@@ -388,12 +398,19 @@ function App() {
             <s.TextTitle
               style={{ textAlign: "center", color: "var(--accent-text)" }}
             >
-              You can also find {CONFIG.NFT_NAME} on
+              You can also find {CONFIG.NFT_NAME} at
             </s.TextTitle>
             <s.SpacerSmall />
             <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
-              {CONFIG.MARKETPLACE}
+
+
+                <StyledImg2 alt={"example"} src={"/config/images/tofunft.png"} />
             </StyledLink>
+            <s.TextTitle
+              style={{ textAlign: "center", color: "var(--accent-text)" }}
+            >
+              ToFuNFT
+            </s.TextTitle>
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
