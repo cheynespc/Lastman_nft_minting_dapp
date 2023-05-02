@@ -101,13 +101,13 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
   },
   "NFT_NAME": "Last Man Holding NFT",
   "SYMBOL": "LASTMAN",
-  "MAX_SUPPLY": 777,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.21,
+  "MAX_SUPPLY": 100,
+  "WEI_COST": 150000000000000000,
+  "DISPLAY_COST": 0.15,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "ToFuNFT",
   "MARKETPLACE_LINK": "https://opensea.io/collection/LastManHolding",
-  "SHOW_BACKGROUND": false
+  "SHOW_BACKGROUND": true
 }
 ```
 
