@@ -4,7 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-
+// Cheynes lil NFT Page for Lastman
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
@@ -87,7 +87,6 @@ export const StyledImg2 = styled.img`
 `;
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px dashed var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
   width: 200px;
@@ -244,8 +243,8 @@ function App() {
             LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold.
             Every NFT purchased will reward a current holder randomly until there is only one left. The last NFT sold will earn a total
             of 10% of the entire treasury, total value of all the NFTS sold.
-            Pricing is currently at base cost of 0.21BNB (Beans). this price will increase on every 10 NFTs sold.
-            Get in early to have more chances to be rewarded and remember! You can always have more than one, which means
+            Pricing is currently at base cost of 0.15BNB. Get in early to have more chances to be rewarded and remember!
+            You can always have more than one, which means
             more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!
           </s.TextDescription>
           <s.SpacerMedium />
@@ -412,7 +411,6 @@ function App() {
             <StyledImg
               alt={"example"}
               src={"/config/images/example.png"}
-              style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
         </ResponsiveWrapper>
