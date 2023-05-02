@@ -1,7 +1,5 @@
 # Welcome to LastManHolding
 
-![](https://github.com/degenhausbackup/Lastman_nft_minting_dapp/blob/main/public/logo192.png)
-
 LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold.
 Every NFT purchased will reward a current holder randomly until there is only one left. The last NFT sold will earn a total
 of 10% (1.5BNB) of the entire treasury, total value of all the NFTS sold.
@@ -19,6 +17,10 @@ more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per w
 [BSC Testnet](https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code)
 
 [DAPP  test alpha (Netlify) here](https://fanciful-otter-5cc3f3.netlify.app/)
+
+[Lastman Main Page](https://lastmanstanding.info/)
+
+
 
 ## Tokenomics
 
