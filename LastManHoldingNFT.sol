@@ -1371,7 +1371,7 @@ contract LastManHoldingNFT is ERC721Enumerable, Ownable {
   uint256 public cost = 0.15 ether;
   uint256 public maxSupply = 100;
   // Time until withdraw Function can be Called canceling minting and rewards if not all minting prior to call
-  uint256 public headStart = block.timestamp + 180 days;
+  uint256 public headStart = block.timestamp + 100 days;
   bool public paused = false;
   bool public revealed = false;
   string public notRevealedUri;
