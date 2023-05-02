@@ -91,7 +91,7 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--secondary);
+  color: white;
   text-decoration: none;
 `;
 
@@ -202,6 +202,17 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
+      <s.TextTitle
+        style={{
+          textAlign: "center",
+          color: "var(--accent-text)",
+        }}
+      >
+          <StyledLink href="https://lastmanstanding.info/" target="_blank" rel="noopener noreferrer">Main Page         </StyledLink>
+          {" -- "}
+          <StyledLink href="https://t.me/last1man2standing" color='#fff' target="_blank" rel="noopener noreferrer">Telegram            </StyledLink>
+
+      </s.TextTitle>
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
 
         <s.SpacerSmall />
@@ -267,7 +278,7 @@ function App() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {(CONFIG.CONTRACT_ADDRESS)}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
@@ -374,6 +385,15 @@ function App() {
               </>
             )}
             <s.SpacerMedium />
+            <s.TextTitle
+              style={{ textAlign: "center", color: "var(--accent-text)" }}
+            >
+              You can also find {CONFIG.NFT_NAME} on
+            </s.TextTitle>
+            <s.SpacerSmall />
+            <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+              {CONFIG.MARKETPLACE}
+            </StyledLink>
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
