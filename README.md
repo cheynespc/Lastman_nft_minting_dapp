@@ -124,7 +124,7 @@ Next change the theme colors to your liking in the `public/config/theme.css` fil
   --primary-text: #ffffff;
   --secondary: #0054ff;
   --secondary-text: #ffffff;
-  --accent: #505050;
+  --accent: rgba(250, 250, 250, 0.2);
   --accent-text: #ffffff;
 }
 ```
@@ -164,7 +164,7 @@ Now you can host the contents of the build folder on a server.
 
 That's it! you're done.
 
-Thanks to Hashlips for original Code
+# Thanks to Hashlips for original Code
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
