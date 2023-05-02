@@ -14,5 +14,5 @@
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "ToFuNFT",
   "MARKETPLACE_LINK": "https://tofunft.com/collection/last-man-holding/items",
-  "SHOW_BACKGROUND": false
+  "SHOW_BACKGROUND": true
 }
