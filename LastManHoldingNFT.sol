@@ -36,12 +36,12 @@ NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!
 
 NFT Tokenomics --
 
-10% Random Reward on sale
+10% Random holder reward on each NFT mint.
 10% Lastman Bonus to final mints
 30% Buy Lastman Standing and Lastman Giving Chart
 10% Developer Wallet
 40% Marketing Wallet
-                                                                                                                                           
+
 
 
 
