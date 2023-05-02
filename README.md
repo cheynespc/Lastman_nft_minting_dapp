@@ -14,7 +14,7 @@ more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per w
 
 [Solidity File Here](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/LastManHoldingNFT.sol)
 
-[BSC Testnet](https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code)
+[BSC Testnet Contract](https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code)
 
 [DAPP  test alpha (Netlify) here](https://fanciful-otter-5cc3f3.netlify.app/)
 
