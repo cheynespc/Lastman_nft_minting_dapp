@@ -3,10 +3,11 @@
 ![](https://github.com/degenhausbackup/Lastman_nft_minting_dapp/blob/main/public/logo192.png)
 
 LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold.
-Every NFT will reward randomly until there is one left. Last NFT sold will earn a total of 10% of all the NFTS sold.
-pricing currently at base cost of 0.21BNB (Beans). this price will increase on every 10 NFTs sold.
-Get in early to have more chances to be rewarded and remember! You can always have more than one.
-more chances for rewards. up to 10 can be purchased per transaction.
+Every NFT purchased will reward a current holder randomly until there is only one left. The last NFT sold will earn a total
+of 10% (1.5BNB) of the entire treasury, total value of all the NFTS sold.
+Pricing is currently at base cost of 0.15BNB. Get in early to have more chances to be rewarded and remember!
+You can always have more than one, which means
+more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!
 
 
 ![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/public/dappscreenshot.png)

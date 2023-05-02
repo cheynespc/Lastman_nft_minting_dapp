@@ -242,7 +242,7 @@ function App() {
           >
             LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold.
             Every NFT purchased will reward a current holder randomly until there is only one left. The last NFT sold will earn a total
-            of 10% of the entire treasury, total value of all the NFTS sold.
+            of 10% (1.5BNB) of the entire treasury, total value of all the NFTS sold.
             Pricing is currently at base cost of 0.15BNB. Get in early to have more chances to be rewarded and remember!
             You can always have more than one, which means
             more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!
@@ -410,7 +410,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.png"}
+              src={"/config/images/example2.png"}
             />
           </s.Container>
         </ResponsiveWrapper>
