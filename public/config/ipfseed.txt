@@ -1,0 +1,7 @@
+QmTnADUxiTut1yZLKhqQ74X2FAh87w62YRquMF43JAyxMv
+metadata seed for LastManHolding
+
+linking
+ipfs://QmTnADUxiTut1yZLKhqQ74X2FAh87w62YRquMF43JAyxMv/
+
+reveal is same
