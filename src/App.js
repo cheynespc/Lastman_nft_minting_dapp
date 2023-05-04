@@ -402,11 +402,11 @@ function App() {
             <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
 
 
-                <StyledImg2 alt={"example"} src={"/config/images/tofunft.png"} />
+                <StyledImg2 alt={"ToFuNFT"} src={"/config/images/tofunft.png"} />
             </StyledLink>< StyledLink target={"_blank"} href={"https://testnets.opensea.io/collection/lastman-2"}>
 
 
-                <StyledImg2 alt={"example"} src={"/config/images/opensea.png"} />
+                <StyledImg2 alt={"OpenSea"} src={"/config/images/opensea.png"} />
             </StyledLink>
 
           </s.Container>
