@@ -112,24 +112,27 @@ Deploy Solidity Contract on Mainnet
 
 Add Images and Description to Opensea page for NFT Contract
 
+Apply for verified listings at TofuNFT and OpenSea
 
 
+[📺 YouTube](https://www.youtube.com/channel/UCLMuD50XM0-sDD3A9H-Uy4g)
 
+[💬 Telegram](https://t.me/last1man2standing)
+
+[🐦 Twitter](https://twitter.com/LastmanHolding)
+
+[ℹ️ Website](https://nft.lastmanstanding.info)
+
+[ℹ️ Main Page](https://lastmanstanding.info)
+
+lastmanft@gmail.com
 
 
 
 # Thanks to Hashlips for original Code
 
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
+All the code in these repos was originally thanks to HashLips
 
 To find out more please visit:
-
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
-
-[👄 Discord](https://discord.com/invite/qh6MWhMJDN)
-
-[💬 Telegram](https://t.me/hashlipsnft)
-
-[🐦 Twitter](https://twitter.com/hashlipsnft)
 
 [ℹ️ Website](https://hashlips.online/HashLips)
