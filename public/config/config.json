@@ -2,15 +2,15 @@
   "CONTRACT_ADDRESS": "0xA4F64d98ad39A25975D19AC174F9E7a35209369A",
   "SCAN_LINK": "https://testnet.bscscan.com/address/0xa4f64d98ad39a25975d19ac174f9e7a35209369a#code",
   "NETWORK": {
-    "NAME": "TESTNET Binance Smart Chain",
+    "NAME": "Binance Smart Chain",
     "SYMBOL": "BNB",
-    "ID": 97
+    "ID": 56
   },
   "NFT_NAME": "Last Man Holding NFT",
   "SYMBOL": "LASTMAN",
   "MAX_SUPPLY": 100,
-  "WEI_COST": 1500000000000000,
-  "DISPLAY_COST": 0.0015,
+  "WEI_COST": 150000000000000000,
+  "DISPLAY_COST": 0.15,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "ToFuNFT",
   "MARKETPLACE_LINK": "https://tofunft.com/collection/last-man-holding/items",

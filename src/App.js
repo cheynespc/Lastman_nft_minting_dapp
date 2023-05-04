@@ -403,6 +403,10 @@ function App() {
 
 
                 <StyledImg2 alt={"example"} src={"/config/images/tofunft.png"} />
+            </StyledLink>< StyledLink target={"_blank"} href={"https://testnets.opensea.io/collection/lastman-2"}>
+
+
+                <StyledImg2 alt={"example"} src={"/config/images/opensea.png"} />
             </StyledLink>
 
           </s.Container>
