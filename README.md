@@ -22,6 +22,15 @@ more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per w
 
 
 
+[Opensea TestNET](https://testnets.opensea.io/collection/lastman-2)
+
+## Video Help (YOUTUBE)
+
+[Metamask Wallet Import Test](https://www.youtube.com/shorts/GTSYsEinnWA)
+[Opensea Collection Video](https://youtu.be/e62rX2uFfpQ)
+
+lastmanNFT@gmail.com
+
 ## Tokenomics
 
 100% of NFT sales broken down

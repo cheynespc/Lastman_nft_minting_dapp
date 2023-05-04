@@ -2,6 +2,15 @@ QmTnADUxiTut1yZLKhqQ74X2FAh87w62YRquMF43JAyxMv
 metadata seed for LastManHolding
 
 linking
+
+this one for contract
 ipfs://QmTnADUxiTut1yZLKhqQ74X2FAh87w62YRquMF43JAyxMv/
+this one for contract
+
 
 reveal is same
+
+
+
+images
+ipfs://QmTnADUxiTut1yZLKhqQ74X2FAh87w62YRquMF43JAyxMv/
