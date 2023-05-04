@@ -67,6 +67,32 @@ Funds held until last NFT Sold
 
 ![](https://github.com/cheynespc/Lastman_nft_minting_dapp/blob/main/public/RemixLogtestFinalsale.png)
 
+## Development Steps
+Create Solidity ERC721
+Create DAPP edit features relation to solidity contract
+Link Contract and ABI
+Test minting function
+Deploy Solidity Contract on TestNET
+Test Minting on TestNET
+Redeploy with qty less then 5 to Successfully call Withdraw function
+Create Metadata using Art Engine
+Add Images IPFS Storage
+Copy CID of Images on IPFS (QmTnADUxiTut1yZLKhqQ74X2FAh87w62YRquMF43JAyxMv)
+Recode metadata.json to link image CID to json files
+Add Metadata IPFS Storage
+Redeploy or write baseuri (using metadata CID) function Solidity with updates ipfs link always ends in forward slash/
+Setup Opensea for Deployed Testnet CONTRACT
+use caching service (Public Gateway caching) to propegate ipfs details
+Check opensea updated
+Add Images and Description to Opensea page
+Call Reveal Function on Testnet
+Check opensea updated with traits nft and information
+Finalise tests
+Deploy Solidity Contract on Mainnet
+Add Images and Description to Opensea page for NFT Contract
+
+
+
 
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
