@@ -225,6 +225,8 @@ function App() {
           <StyledLink href="https://lastmanstanding.info/" target="_blank" rel="noopener noreferrer">Main Page         </StyledLink>
           {" -- "}
           <StyledLink href="https://t.me/last1man2standing" color='#fff' target="_blank" rel="noopener noreferrer">Telegram            </StyledLink>
+          {" -- "}
+          <StyledLink href="https://twitter.com/LastmanHolding" color='#fff' target="_blank" rel="noopener noreferrer">Twitter            </StyledLink>
 
       </s.TextTitle>
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
