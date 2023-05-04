@@ -6,6 +6,9 @@
     "SYMBOL": "BNB",
     "ID": 56
   },
+
+  "SITE_NAME": "Lastman Standing",
+  "SITE_LINK": "https://lastmanstanding.info",
   "NFT_NAME": "Last Man Holding NFT",
   "SYMBOL": "LASTMAN",
   "MAX_SUPPLY": 100,

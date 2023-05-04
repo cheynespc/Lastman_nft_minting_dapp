@@ -67,9 +67,9 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 320px;
-  @media (min-width: 320px) {
-    width: 600px;
+  width: 450px;
+  @media (min-width: 500px) {
+    width: 900px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -420,7 +420,16 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-
+        <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Return to Main Site
+                </s.TextTitle>
+                <s.SpacerSmall />
+                <StyledLink target={"_blank"} href={"CONFIG.SITE_LINK"}>
+                  {CONFIG.SITE_NAME}
+                </StyledLink>
+                  <s.SpacerSmall />
           <s.TextDescription
             style={{
               textAlign: "center",
