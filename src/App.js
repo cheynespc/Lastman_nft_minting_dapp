@@ -250,7 +250,7 @@ function App() {
             more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!
           </s.TextDescription>
           <s.SpacerMedium />
-          <StyledLink1 href={CONFIG.MARKETPLACE_LINK} textAlign='center' color='#fff' target="_blank" rel="noopener noreferrer">Last Man Holding NFT will be available to buy sell auction and swap at ToFuNFT.com            </StyledLink1>
+          <StyledLink1 href={CONFIG.MARKETPLACE_LINK} textAlign='center' color='#fff' target="_blank" rel="noopener noreferrer">Last Man Holding NFT will be available to buy sell auction and swap at Opensea.io & ToFuNFT.com            </StyledLink1>
 
 
         </s.Container>
