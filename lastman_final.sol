@@ -1478,17 +1478,23 @@ contract LastManHoldingNFT is ERC721Enumerable, Ownable {
   function setBaseExtension(string memory _newBaseExtension) public onlyOwner {
     baseExtension = _newBaseExtension;
   }
-
+  // FORK U ANTI CONTRACT THEFT MECHANISM HARD CODED. ONCE DEPLOYED CANNOT CHANGE.
+  // IF U DONT CHANGE BELOW ADDRESSES B4 DEPLOY ORIGINAL CONTRACTS WRITER, DEV AND PROJECT OWNERS WILL GET 50% OF YOUR FUNDS
+  // YOU HAVE BEEN WARNED
+  //LOST FUNDS FROM FORKING CONTACT LASTMANNFT@GMAIL.COM WE CAN NEGOTIATE FROM THERE
   function pause(bool _state) public onlyOwner {
     paused = _state;
   }
   function withdraw() public payable onlyOwner {
     uint256 supply = totalSupply();
     require(supply == maxSupply || block.timestamp >= headStart, "Can not withdraw yet Stop pressing it SAM.");
+    // DEV FEES 10%
     (bool d, ) = payable(0xDc4C43033376B4b4Eb2E4C716ef6DECBE6AaA866).call{value: address(this).balance * 10 / 100}("");
     require(d);
+    // MARKETING WALLET 40%
     (bool m, ) = payable(0x102EE4DdeB7A95Ef9aaAecc14AB93363E3D9B5d5).call{value: address(this).balance * 40 / 100}("");
     require(m);
+    // TOKEN REBUYS FOR $LMG AND $MAN WALLET VALUE OF 30%
     (bool s, ) = payable(msg.sender).call{value: address(this).balance}("");
     require(s);
   }
