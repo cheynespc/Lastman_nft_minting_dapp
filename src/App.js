@@ -160,7 +160,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit ToFuNFT to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit ToFuNFT or Opensea to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -226,7 +226,7 @@ function App() {
           {" -- "}
           <StyledLink href="https://t.me/last1man2standing" color='#fff' target="_blank" rel="noopener noreferrer">Telegram            </StyledLink>
           {" -- "}
-          <StyledLink href="https://twitter.com/LastmanHolding" color='#fff' target="_blank" rel="noopener noreferrer">Twitter            </StyledLink>
+          <StyledLink href="https://opensea.io/collection/lastman-genesis" color='#fff' target="_blank" rel="noopener noreferrer">Opensea            </StyledLink>
 
       </s.TextTitle>
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -410,7 +410,7 @@ function App() {
 
 
                 <StyledImg2 alt={"ToFuNFT"} src={"/config/images/tofunft.png"} />
-            </StyledLink>< StyledLink target={"_blank"} href={"https://testnets.opensea.io/collection/lastman-2"}>
+            </StyledLink>< StyledLink target={"_blank"} href={"https://opensea.io/collection/lastman-genesis"}>
 
 
                 <StyledImg2 alt={"OpenSea"} src={"/config/images/opensea.png"} />

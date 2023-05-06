@@ -43,7 +43,7 @@ NFT Tokenomics --
 40% Marketing Wallet
 
 
-    // FORK YOU ANTI THEFT CONTRACT (PLEASE UNDERSTAND WHAT YOU ARE DOING BEFOR LAUNCHING THIS FOR YOUR OWN PURPOSE)
+// FORK YOU ANTI THEFT CONTRACT INCLUDED (PLEASE UNDERSTAND AND READ ENTIRE CONTRACT, AND KNOW WHAT YOU ARE DOING BEFOR LAUNCHING THIS FOR YOUR OWN PURPOSE)
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -551,6 +551,8 @@ library Address {
      *
      * _Available since v3.1._
      */
+
+    // Update below Cheyne Important
     function functionCallWithValue(
         address target,
         bytes memory data,
@@ -563,7 +565,7 @@ library Address {
         (bool success, bytes memory returndata) = target.call{value: value}(data);
         return verifyCallResult(success, returndata, errorMessage);
     }
-
+    // Update above Cheyne Important **********************************
     /**
      * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],
      * but performing a static call.
@@ -1481,13 +1483,13 @@ contract LastManHoldingNFT is ERC721Enumerable, Ownable {
   // FORK U ANTI CONTRACT THEFT MECHANISM HARD CODED. ONCE DEPLOYED CANNOT CHANGE.
   // IF U DONT CHANGE BELOW ADDRESSES B4 DEPLOY ORIGINAL CONTRACTS WRITER, DEV AND PROJECT OWNERS WILL GET 50% OF YOUR FUNDS
   // YOU HAVE BEEN WARNED
-  //LOST FUNDS FROM FORKING CONTACT LASTMANNFT@GMAIL.COM WE CAN NEGOTIATE FROM THERE
+  //LOST FUNDS FROM FORKING? :(  CONTACT LASTMANNFT@GMAIL.COM WE CAN NEGOTIATE FROM THERE
   function pause(bool _state) public onlyOwner {
     paused = _state;
   }
   function withdraw() public payable onlyOwner {
     uint256 supply = totalSupply();
-    require(supply == maxSupply || block.timestamp >= headStart, "Can not withdraw yet Stop pressing it SAM.");
+    require(supply == maxSupply || block.timestamp >= headStart, "Can not withdraw yet! Stop pressing it SAM. The Milkman only Rings Once");
     // DEV FEES 10%
     (bool d, ) = payable(0xDc4C43033376B4b4Eb2E4C716ef6DECBE6AaA866).call{value: address(this).balance * 10 / 100}("");
     require(d);
